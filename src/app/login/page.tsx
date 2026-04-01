@@ -18,8 +18,7 @@ export default function LoginPage() {
     if (error) {
       setErrore('Email o password errati')
     } else {
-      router.push('/')
-    }
+        router.push('/dashboard')  }
     setLoading(false)
   }
 
